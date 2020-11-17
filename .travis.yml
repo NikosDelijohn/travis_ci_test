@@ -1,0 +1,10 @@
+language: python
+python:
+  - "3.8"
+
+install:
+  - pip3 install -e travis_ci_test/
+
+script:
+  - ls -1
+  - pytest
